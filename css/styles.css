@@ -1,10 +1,41 @@
 
 
+
 h1 {
     font-family: Shadows Into Light, cursive;
     letter-spacing: 2px;
+  }
+
+  h2, h3 {
+      font-family: 'Shadows Into Light', sans-serif;
+      letter-spacing: 2px;
+      color: #f26f69;
+      font-size: 25px;
+  }
+header nav ul {
+        font-family: 'Shadows Into Light';
+  }
 
 
-h2 {
-    font-family: Montserrat,sans-serif;
-}
+  .logo {
+      max-width: 300px;
+      max-height: 300px;
+      text-align: center;
+      font-size: 40px;
+      color: #f26f69;
+      background: #f6d03666;
+      border-radius: 20px;
+  }
+
+  .intro {
+    font-family: Montserrat, san-serif;
+    font-size: 16px;
+    color: #03243f;
+    line-height: 1.5;
+    background: #80d2e947;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 40px 20px;
+    position: absolute;
+    right: 730px;
+  }
