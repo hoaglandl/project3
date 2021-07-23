@@ -1,29 +1,14 @@
 
-/*============Heading Styling===========*/
+/*============Universal Styling===========*/
+
+*{
+  margin: 0 auto;
+}
 
 h1 {
     font-family: Shadows Into Light, cursive;
   }
 
-  body {
-    margin: 0 auto;
-
-  }
-
-  main {
-      margin: 0 auto;
-      background: #80d2e957;
-      max-width: 1000px;
-      padding: 50px;
-      border-radius: 20px;
-      font-family: Montserrat, san-serif;
-  }
-
-  p {
-      font-size: 18px;
-      line-height: 1.5;
-      color: #03243f;
-  }
 
   h2,
   h3 {
@@ -31,6 +16,22 @@ h1 {
     font-size: 40px;
     color: #F26F69;
     letter-spacing: 3px;
+    padding: 20px;
+  }
+
+  main {
+    margin: 0 auto;
+    background: #80d2e957;
+    max-width: 1025px;
+    padding: 50px;
+    border-radius: 20px;
+    font-family: Montserrat, san-serif;
+}
+
+  p {
+      font-size: 18px;
+      line-height: 1.75;
+      color: #03243f;
   }
 
 
@@ -40,8 +41,31 @@ h1 {
     color: #03243f;
   }
 
+
+  /*============Header/Navigation Styling===========*/
+
+  header h1 {
+      background: #fff2bd;
+      text-align: center;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 20px;
+      color: #f26f69;
+      position: fixed;
+  }
+
+
+  /*============About Page===========*/
+
+  img {
+    border-radius: 20px;
+    margin: 20px;
+  }
+
   .info-character img {
       float: left;
-      border-radius: 20px;
-      margin: 20px;
+  }
+
+  .info-island img {
+    float: right;
   }
