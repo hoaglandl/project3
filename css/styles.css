@@ -35,7 +35,7 @@ h1 {
   }
 
 
-  ul {
+  ul, ol {
     font-size: 18px;
     line-height: 1.5;
     color: #03243f;
@@ -110,4 +110,23 @@ header h1 {
 
 .info-wildlife img {
     float: left;
+}
+
+  /*============Gameplay Page===========*/
+
+iframe {
+    position: relative;
+    left: 235px;
+}
+
+.fishing img {
+    float: right;
+}
+
+.bugs img {
+    float: right;
+}
+
+.intro-gameplay img {
+    float: left
 }
