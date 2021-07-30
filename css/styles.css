@@ -21,7 +21,7 @@ h1 {
 
   main {
     margin: 0 auto;
-    background: #80d2e957;
+    background: #d0f5ff;
     max-width: 1025px;
     padding: 50px;
     border-radius: 20px;
@@ -41,18 +41,28 @@ h1 {
     color: #03243f;
   }
 
+  body {
+      background: #177088cc;
+  }
 
   /*============Header/Navigation Styling===========*/
 
+  .nav {
+      background: #fff2bd;
+      padding: 30px;
+      margin: 20px;
+      border-radius: 20px;
+  }
+
   header nav ul li {
-    background: #fff2bd;
     margin: 20px;
-    padding: 20px;
+    padding: 48px;
     border-radius: 20px;
     color: #f26f69;
     display: inline;
     position: relative;
     left: 460px;
+    top: -33px;
     font-size: 30px;
 }
 
@@ -66,6 +76,14 @@ header a {
 header a:hover {
     color: #0b77be;
     transition: 0.5s;
+}
+
+header h1 {
+    color: #f26f69;
+    text-align: left;
+    font-size: 45px;
+    position: relative;
+    top: 20px;
 }
   /*============About Page===========*/
 
@@ -81,3 +99,15 @@ header a:hover {
   .info-island img {
     float: right;
   }
+
+  .info-villagers img {
+    float: right;
+}
+
+.info-npcs img {
+    float: right;
+}
+
+.info-wildlife img {
+    float: left;
+}
