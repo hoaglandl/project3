@@ -85,6 +85,32 @@ header h1 {
     position: relative;
     top: 20px;
 }
+
+  /*============Home Page===========*/
+
+ img {
+    float: right;
+}
+
+.call-to-action h2 {
+    text-align: center;
+    font-size: 90px;
+    letter-spacing: 10px;
+}
+
+.home-updates {
+    background: #fff2bd;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 25px;
+}
+
+.home-updates h2 {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
   /*============About Page===========*/
 
   img {
