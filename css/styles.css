@@ -102,6 +102,8 @@ header h1 {
     text-align: center;
     font-size: 90px;
     letter-spacing: 10px;
+    background: #fffdf2;
+    border-radius: 11pt;
 }
 
 .home-updates {
@@ -170,7 +172,8 @@ iframe {
     float: left;
 }
 
-.blog {
+.blog,
+.youtube {
     background: #fff2bd;
     padding: 20px;
     margin: 30px;
@@ -178,13 +181,14 @@ iframe {
     max-width: 450px;
 }
 
-.blog h2 {
+.blog h2, {
     text-align: left;
     font-size: 50px;
     letter-spacing: 10px;
 }
 
-.blog a {
+.blog a,
+.youtube a {
     font-family: 'Shadows Into Light';
     font-size: 30px;
     text-decoration: none;
@@ -195,4 +199,24 @@ iframe {
     position: absolute;
     left: 805px;
     bottom: -220px;
+}
+
+.youtube h2 {
+    text-align: left;
+    font-size: 35px;
+}
+
+.youtube li, .blog li {
+    list-style: none;
+}
+
+.youtube a:hover,
+.blog a:hover {
+    color: #f26f69;
+}
+
+.youtube img {
+    position: absolute;
+    left: 805px;
+    bottom: -578px;
 }
