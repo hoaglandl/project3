@@ -181,8 +181,7 @@ iframe {
 }
 
 .blog,
-.youtube,
-.poll {
+.youtube {
     background: #fff2bd;
     padding: 20px;
     margin: 30px;
@@ -204,10 +203,9 @@ iframe {
     color: #0b77be;
 }
 
-.blog img {
-    position: absolute;
-    left: 805px;
-    bottom: -220px;
+.youtube {
+    position: relative;
+    left: 360px;
 }
 
 .youtube h2 {
@@ -222,12 +220,6 @@ iframe {
 .youtube a:hover,
 .blog a:hover {
     color: #f26f69;
-}
-
-.youtube img {
-    position: absolute;
-    left: 805px;
-    bottom: -578px;
 }
 
 

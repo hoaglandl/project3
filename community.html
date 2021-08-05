@@ -27,7 +27,7 @@
     <!--Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <script src="scripts/scripts.js" type="text/javascript"></script>
+    <script src="scripts/scripts.js"></script>
 
     <!--Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -57,6 +57,7 @@
               <li><a href="community.html">Community</a></li>
             </ul>
           </nav>
+      </div>
     </header>
 
    <main>
@@ -76,7 +77,6 @@
        <div class="blog">
          <h2>Blog Posts</h2>
 
-         <img src="images/grizzly.jpg" alt="grizzly" title="Grizzly">
           <ul>
             <li><a href="https://www.jvgs.net/acnhblog/" target="_blank">Jeff's New Horizons Blog</a></li>
             <li><a href="https://aforestlife.com/" target="_blank">A Forest Life</a></li>
@@ -89,7 +89,6 @@
        <div class="youtube">
          <h2>Animal Crossing Youtubers</h2>
 
-         <img src="images/marina.jpg" alt="marina" title="Marina">
           <ul>
             <li><a href="https://www.youtube.com/watch?v=b_Veo5QayUI" target="_blank">TagBackTV</a></li>
             <li><a href="https://www.youtube.com/watch?v=S7TQJvoirjI" target="_blank">Liss the Lass</a></li>
@@ -102,21 +101,21 @@
 
      <section>
 
-       <form class="community-poll" id="test_form" name="test_form" method="" action="form.php" onsubmit="return validateForm(this)">
+       <form class="community-poll" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
 
            <div class="community-poll">
 
              <h3>Which is your favorite in-game holiday?</h3>
 
-             <input type="radio" name="holidays" value="bunnyday" id="holiday"/><label for="bunnyday">Bunny Day</label>
+             <input type="radio" name="poll" value="bunnyday" id="bunnyday"/><label for="bunnyday">Bunny Day</label>
 
-             <input type="radio" name="holidays" value="festivale" id="holiday"/><label for="festivale">Festivale</label>
+             <input type="radio" name="poll" value="festivale" id="festivale"/><label for="festivale">Festivale</label>
 
-             <input type="radio" name="holidays" value="halloween" id="holiday"/><label for="halloween">Halloween</label>
+             <input type="radio" name="poll" value="halloween" id="halloween"/><label for="halloween">Halloween</label>
 
-             <input type="radio" name="holidays" value="toyday" id="holiday"/><label for="toyday">Toy Day</label>
+             <input type="radio" name="poll" value="toyday" id="toyday"/><label for="toyday">Toy Day</label>
 
-             <input type="radio" name="holidays" value="all" id="holiday"/><label for="all">I like them all!</label>
+             <input type="radio" name="poll" value="all" id="all"/><label for="all">I like them all!</label>
            </div>
 
            <div class="submit">
@@ -126,8 +125,6 @@
 
          </form>
 
-
-       </div>
      </section>
 
      <section>
@@ -140,7 +137,7 @@
 
         <a href="images/celia.jpg" data-lightbox="image-1" data-title="Villagers study the island's wildlife"><img src="images/celia.jpg" alt="celia" title="Celia studying nature"></a>
 
-        <a href="images/thanskgiving.jpg" data-lightbox="image-1" data-title="Thanksgiving in Town Square with Franklin"><img src="images/thanksgiving.jpg" alt="thanksgiving" title="Thanksgiving in Town Square"></a>
+        <a href="images/thanskgiving.jpg" data-lightbox="image-1" data-title="Thanksgiving"><img src="images/thanksgiving.jpg" alt="thanksgiving" title="Thanksgiving"></a>
 
         <a href="images/spooky.jpg" data-lightbox="image-1" data-title="Spooky Season is my favorite!"><img src="images/spooky.jpg" alt="spooky" title="Spooky Season!"></a>
 
