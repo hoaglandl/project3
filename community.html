@@ -20,6 +20,12 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 
+    <!-- Favicon -->
+
+    <link rel="icon" type="image/ico" href="images/favicon.ico"/>
+
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+
   </head>
 
   <body>
@@ -81,6 +87,36 @@
      </section>
 
      <section>
+
+       <form class="community-poll" id="test_form" name="test_form" method="" action="form.php" onsubmit="return validateForm(this)">
+
+           <div class="community-poll">
+
+             <h3>Which is your favorite in-game holiday?</h3>
+
+             <input type="radio" name="holidays" value="bunnyday" id="holiday"/><label for="bunnyday">Bunny Day</label>
+
+             <input type="radio" name="holidays" value="festivale" id="holiday"/><label for="festivale">Festivale</label>
+
+             <input type="radio" name="holidays" value="halloween" id="holiday"/><label for="halloween">Halloween</label>
+
+             <input type="radio" name="holidays" value="toyday" id="holiday"/><label for="toyday">Toy Day</label>
+
+             <input type="radio" name="holidays" value="all" id="holiday"/><label for="all">I like them all!</label>
+           </div>
+
+           <div class="submit">
+             <input type="submit" value="Submit">
+
+           </div>
+
+         </form>
+
+
+       </div>
+     </section>
+
+     <section>
        <div class="gallery">
          <h2>Photo Gallery</h2>
 
@@ -97,6 +133,7 @@
         <a href="images/tia.jpg" data-lightbox="image-1" data-title="It's sad when villagers move away."><img src="images/tia.jpg" alt="tia" title="It's sad when villagers move away."></a>
        </div>
      </section>
+
    </main>
 
    <script src="lightbox/src/js/lightbox.js"></script>

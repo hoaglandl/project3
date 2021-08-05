@@ -173,7 +173,8 @@ iframe {
 }
 
 .blog,
-.youtube {
+.youtube,
+.poll {
     background: #fff2bd;
     padding: 20px;
     margin: 30px;
@@ -221,6 +222,14 @@ iframe {
     bottom: -578px;
 }
 
+
+.gallery {
+    background: #fff2bd;
+    border-radius: 10px;
+    position: relative;
+    top: 26px;
+}
+
 .gallery img {
     position: relative;
     top: 57px;
@@ -231,4 +240,32 @@ iframe {
     font-size: 60px;
     text-align: center;
     letter-spacing: 21px;
+}
+
+
+.community-poll {
+    margin: 0 auto;
+    padding: 42px;
+    display: block;
+    background: #fffdf2;
+    max-width: 554px;
+    border-radius: 6px;
+}
+
+.community-poll h3 {
+    font-size: 27px;
+}
+
+.submit input {
+    font-family: 'Shadows Into Light';
+    background: #f26f69;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.submit {
+    position: relative;
+    left: 460px;
+    top: 10px;
 }
