@@ -98,6 +98,14 @@ header h1 {
     float: right;
 }
 
+.cloud {
+  width: 200px;
+  top: 120px;
+  opacity: 75%;
+  animation: wind 40s linear infinite reverse;
+  position: absolute;
+}
+
 .call-to-action h2 {
     text-align: center;
     font-size: 90px;
@@ -268,4 +276,16 @@ iframe {
     position: relative;
     left: 460px;
     top: 10px;
+}
+
+
+
+
+@keyframes wind {
+  from {
+    left: -300px;
+  }
+  to {
+    left: 1000px;
+  }
 }
