@@ -169,3 +169,30 @@ iframe {
 .comm-intro img {
     float: left;
 }
+
+.blog {
+    background: #fff2bd;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 25px;
+    max-width: 450px;
+}
+
+.blog h2 {
+    text-align: left;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+.blog a {
+    font-family: 'Shadows Into Light';
+    font-size: 30px;
+    text-decoration: none;
+    color: #0b77be;
+}
+
+.blog img {
+    position: absolute;
+    left: 805px;
+    bottom: -220px;
+}
