@@ -186,7 +186,8 @@ iframe {
     padding: 20px;
     margin: 30px;
     border-radius: 25px;
-    max-width: 450px;
+    max-width: 930px;
+    text-align: center;
 }
 
 .blog h2, {
@@ -201,16 +202,6 @@ iframe {
     font-size: 30px;
     text-decoration: none;
     color: #0b77be;
-}
-
-.youtube {
-    position: relative;
-    left: 360px;
-}
-
-.youtube h2 {
-    text-align: left;
-    font-size: 35px;
 }
 
 .youtube li, .blog li {
